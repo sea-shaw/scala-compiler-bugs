@@ -1,8 +1,6 @@
-//> using scala 3.8.4
-
 import scala.quoted.{Expr, Type, Quotes}
 
-type Unapply[A] = A match {
+type Unapply[A] <: Boolean | Option[A] = A match {
   case Unit => Boolean
   case _    => Option[A]
 }

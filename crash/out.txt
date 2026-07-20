@@ -1,0 +1,32 @@
+
+  unhandled exception while running MegaPhase{protectedAccessors, extmethods, uncacheGivenAliases, checkStatic, elimByName, hoistSuperArgs, forwardDepChecks, specializeApplyMethods, tryCatchPatterns, patternMatcher} on .../match.scala
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+
+
+     while compiling: .../match.scala
+        during phase: MegaPhase{protectedAccessors, extmethods, uncacheGivenAliases, checkStatic, elimByName, hoistSuperArgs, forwardDepChecks, specializeApplyMethods, tryCatchPatterns, patternMatcher}
+                mode: Mode(ImplicitsEnabled)
+     library version: version 3.8.4
+    compiler version: version 3.8.4
+            settings: -classpath /.../.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.8.4/scala3-3.8.4-x86_64-pc-linux.tar.gz/scala3-3.8.4-x86_64-pc-linux/maven2/org/scala-lang/scala3-library_3/3.8.4/scala3-library_3-3.8.4.jar:/.../.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.8.4/scala3-3.8.4-x86_64-pc-linux.tar.gz/scala3-3.8.4-x86_64-pc-linux/maven2/org/scala-lang/scala-library/3.8.4/scala-library-3.8.4.jar -d .../.scala-build/crash_db9eec46cd/classes/main -sourceroot ...
+
+
+  Exception while compiling .../extractor.scala, .../match.scala
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+
+
+     while compiling: <no file>
+        during phase: parser
+                mode: Mode()
+     library version: version 3.8.4
+    compiler version: version 3.8.4
+            settings: -classpath /.../.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.8.4/scala3-3.8.4-x86_64-pc-linux.tar.gz/scala3-3.8.4-x86_64-pc-linux/maven2/org/scala-lang/scala3-library_3/3.8.4/scala3-library_3-3.8.4.jar:/.../.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.8.4/scala3-3.8.4-x86_64-pc-linux.tar.gz/scala3-3.8.4-x86_64-pc-linux/maven2/org/scala-lang/scala-library/3.8.4/scala-library-3.8.4.jar -d .../.scala-build/crash_db9eec46cd/classes/main -sourceroot ...
+
