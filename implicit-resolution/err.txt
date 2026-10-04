@@ -1,0 +1,15 @@
+[90mCompiling project (Scala 3.8.4, JVM (25))[0m
+[[31merror[0m] ./implicit.scala:12:12
+[[31merror[0m] Reference to A within quotes requires a given scala.quoted.Type[A] in scope
+[[31merror[0m]       val x = $default
+[[31merror[0m]            ^
+[[31merror[0m] ./implicit.scala:12:15
+[[31merror[0m] Reference to A within quotes requires a given scala.quoted.Type[A] in scope
+[[31merror[0m]       val x = $default
+[[31merror[0m]               ^^^^^^^^
+[[31merror[0m] ./implicit.scala:13:8
+[[31merror[0m] Reference to A within quotes requires a given scala.quoted.Type[A] in scope
+[[31merror[0m]       x
+[[31merror[0m]        ^
+[90mError compiling project (Scala 3.8.4, JVM (25))[0m
+Compilation failed
